@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -184,6 +185,12 @@ class _CustomTopNavigatorState extends State<CustomTopNavigator>
   @override
   Future<bool> didPushRouteInformation(RouteInformation routeInformation) {
     // TODO: implement didPushRouteInformation
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<AppExitResponse> didRequestAppExit() {
+    // TODO: implement didRequestAppExit
     throw UnimplementedError();
   }
 }
